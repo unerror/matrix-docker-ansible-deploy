@@ -5,7 +5,7 @@
 matrix_servers:
   hosts:
     matrix.striek.com:
-      ansible_host: 3.96.220.245
+      ansible_host: matrix.striek.com
       ansible_ssh_user: admin
       become: true
       become_user: root
