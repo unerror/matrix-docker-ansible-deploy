@@ -1,0 +1,11 @@
+---
+
+# This is a host file for usage with the `../bin/ansible-all-hosts.sh` script,
+# which runs Ansible against a bunch of hosts, each with its own `sudo` password.
+matrix_servers:
+  hosts:
+    matrix.striek.com:
+      ansible_host: 3.96.220.245
+      ansible_ssh_user: admin
+      become: true
+      become_user: root
